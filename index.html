@@ -34,10 +34,8 @@
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
             navigator.serviceWorker.register('/sw.js').then(function(registration) {
-              // Registration was successful
               console.log('ServiceWorker registration successful with scope: ', registration.scope);
             }, function(err) {
-              // registration failed :(
               console.log('ServiceWorker registration failed: ', err);
             });
           });
@@ -53,9 +51,9 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1>Eventually</h1>
-				<p>A simple template for telling the world when you'll launch<br />
-				your next big thing. Brought to you by <a href="http://html5up.net">HTML5 UP</a>.</p>
+				<h1>АРМ ЛК</h1>
+				<p>тестовое PWA-приложение<br />
+				Чтобы установить его на iOS через Safari, нажмите стрелку "Поделиться" в нижней части экрана и выберите "Добавить на главный экран". В других браузерах в том числе на системе Android для этого может появиться специальный значёк в адресной строке <a href="#">Быть добру!</a>.</p>
 			</header>
 
 		<!-- Signup Form -->
