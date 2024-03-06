@@ -1,5 +1,9 @@
 {
- "name": "App",
+ "name": "simple-pwa",
+ "description": "a test project",
+ "start_url": "/",
+ "lang": "ru-RU",
+ "display": "standalone",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
